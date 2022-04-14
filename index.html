@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16 - Курс Зима 2022(ДЗ)</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">шапка</header>
+		<main class="main">
+			<div class="main__appointment appointment">
+				<div class="appointment__container">
+					<div class="appointment__items">
+						<div class="appointment__form form-appointment">
+							<h2 class="form-appointment__title">Make an appointment</h2>
+							<form action="#" class="form-appointment__item">
+								<div class="form-appointment__lines">
+									<div class="form-appointment__line">
+										<input tabindex="1" type="text" name="name" class="form-appointment__name" placeholder="Name">
+									</div>
+									<div class="form-appointment__line">
+										<input tabindex="2" type="email" required name="email" class="form-appointment__email" placeholder="Email">
+									</div>
+									<div class="form-appointment__line">
+										<input tabindex="3" type="tel" name="phone" class="form-appointment__tel" placeholder="Phone Number">
+									</div>
+									<div class="form-appointment__line">
+										<input tabindex="4" type="text" name="string" class="form-appointment__string" placeholder="Select Service">
+									</div>
+									<div class="form-appointment__line">
+										<textarea tabindex="5" name="text" class="form-appointment__textarea" placeholder="Tell us about your puppers include his/her name"></textarea>
+									</div>
+								</div>
+								<button tabindex="6" type="submit" class="form-appointment__button">Make an Appointment</button>
+							</form>
+						</div>
+						<div class="appointment__body">
+							<div class="appointment__text">Maxime placeat facere possimus omnis </div>
+							<div class="appointment__statictics">5,700+</div>
+							<div class="appointment__label">customers served</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__summary summary">
+				<div class="summary__container">
+					<form action="#" class="summary__form">
+						<h2 class="summary__title">Summary</h2>
+						<h3 class="summary__subtitle">Estimate Shipping and Tax</h3>
+						<div class="summary__text">Enter your destination to get a shipping estimate.</div>
+						<div class="summary__location">
+							<div class="summary__item">
+								<label for="country" class="summary__label">country</label>
+								<select tabindex="7" name="country" id="country" class="summary__string">
+									<option selected value="Australia" class="summary__option">Australia</option>
+									<option value="Canada" class="summary__option">Canada</option>
+									<option value="New Zealand" class="summary__option">New Zealand</option>
+								</select>
+							</div>
+							<div class="summary__item">
+								<label for="state" class="summary__label">State/Province</label>
+								<input tabindex="8" type="text" name="state" id="state" class="summary__string">
+							</div>
+							<div class="summary__item">
+								<label for="zip" class="summary__label">Zip/Postal Code</label>
+								<input tabindex="9" type="text" name="zip" id="zip" class="summary__string">
+							</div>
+						</div>
+						<div class="summary__radiobuttons">
+							<div class="summary__radiobutton radiobutton-summary">
+								<h4 class="radiobutton-summary__title">Standard Rate</h4>
+								<div class="radiobutton-summary__body">
+									<input tabindex="10" type="radio" name="delivery" id="delivery-1" value="delivery-1" class="radiobutton-summary__input">
+									<label for="delivery-1" class="radiobutton-summary__label">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+								</div>
+							</div>
+							<div class="summary__radiobutton radiobutton-summary">
+								<h4 class="radiobutton-summary__title">Pickup from store</h4>
+								<div class="radiobutton-summary__body">
+									<input tabindex="11" type="radio" name="delivery" id="delivery-2" value="delivery-2" class="radiobutton-summary__input">
+									<label for="delivery-2" class="radiobutton-summary__label">1234 Street Adress City Address, 1234 $0.00</label>
+								</div>
+							</div>
+						</div>
+						<div class="summary__discount discount-summary">
+							<h3 class="discount-summary__title">Apply Discount Code</h3>
+							<h4 class="discount-summary__subtitle">Enter discount code</h4>
+							<input tabindex="12" id="discountcode" type="text" name="discountcode" class="discount-summary__input" placeholder="Enter Discount code">
+							<button tabindex="13" for="discountcode" type="submit" class="discount-summary__button">Apply Discount</button>
+						</div>
+						<button tabindex="14" type="submit" class="summary__button">Proceed to Checkout</button>
+					</form>
+				</div>
+			</div>
+			<div class="main__customers customers">
+				<div class="customers__container">
+					<form action="#" class="customers__form form-customers">
+						<h2 class="form-customers__title">Registered Customers</h2>
+						<h3 class="form-customers__subtitle">If you have an account, sign in with your email address.</h3>
+						<div class="form-customers__emeil email-customers">
+							<label for="customers-email" class="email-customers__label">Email <span class="email-customers__span">*</span></label>
+							<input tabindex="15" type="email" required name="email" id="customers-email" placeholder="Your Name" class="email-customers__item">
+						</div>
+						<div class="form-customers__password password-customers">
+							<label for="customers-password" class="password-customers__label">Password <span class="email-customers__span">*</span></label>
+							<input tabindex="16" type="password" name="password" id="customers-password" class="password-customers__item" placeholder="Your Password">
+						</div>
+						<div class="form-customers__buttons">
+							<button tabindex="17" type="submit" class="form-customers__button">Sign In</button>
+							<a tabindex="18" href="#" class="form-customers__link">Forgot Your Password?</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">подвал</footer>
+	</div>
+</body>
+
+</html>

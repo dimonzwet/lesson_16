@@ -189,6 +189,7 @@ body {
 .summary__form {
 	background: #F5F7FF;
 	max-width: 446px;
+	min-width: 320px;
 	padding: 18px 32px;
 	display: flex;
 	flex-direction: column;

@@ -133,8 +133,10 @@ body {
 	min-height: 180px;
 	resize: vertical;
 }
-.form-appointment__button{
+.form-appointment__footer{
 	align-self: flex-end;
+}
+.form-appointment__button{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -307,6 +309,8 @@ body {
 .discount-summary__button:hover{
 	background-color: #dadce2;
 	/* color: #A2A6B0; */
+}
+.summary__footer{	
 }
 .summary__button{
 	cursor: pointer;

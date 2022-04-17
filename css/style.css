@@ -23,7 +23,9 @@ body {
 	padding: 0px 15px;
 }
 /* ================================================================ */
-
+select {
+	cursor: pointer;
+}
 /* ================================================================ */
 .main{
 	flex: 1 1 auto;
@@ -134,6 +136,14 @@ body {
 	outline: 2px solid #6a6d74;
 }
 .form-appointment__select{
+	height: 48px;
+	width: 100%;
+	background-color: #5D62B5;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	color: #fff;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
 	padding: 0px 20px;
 	transition: all 0.3s ease 0s;
 }

@@ -113,7 +113,7 @@ body {
 .form-appointment__title:not(:last-child){
 	margin: 0px 0px 48px 0px;
 }
-.form-appointment__line input, textarea{
+.form-appointment__line input, textarea, select{
 	height: 48px;
 	width: 100%;
 	background-color: #5D62B5;
@@ -130,6 +130,14 @@ body {
 	outline: 2px solid #6a6d74;
 }
 .form-appointment__line textarea:hover{
+	background-color: #4f539b;
+	outline: 2px solid #6a6d74;
+}
+.form-appointment__select{
+	padding: 0px 20px;
+	transition: all 0.3s ease 0s;
+}
+.form-appointment__select:hover{
 	background-color: #4f539b;
 	outline: 2px solid #6a6d74;
 }

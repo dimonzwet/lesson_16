@@ -113,7 +113,7 @@ body {
 .form-appointment__title:not(:last-child){
 	margin: 0px 0px 48px 0px;
 }
-.form-appointment__line input, textarea, select{
+.form-appointment__line input, textarea {
 	height: 48px;
 	width: 100%;
 	background-color: #5D62B5;

@@ -276,11 +276,17 @@ background-color: #e5e7f0;
 .radiobutton-summary {
 }
 .radiobutton-summary__title {
+	cursor: pointer;
 	font-size: 13px;
 	font-weight: 600;
-	line-height: 2.1;
+	line-height: 2.1;	
 }
 .radiobutton-summary__body{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.radiobutton-summary__item{
 	display: flex;
 	column-gap: 8px;
 }

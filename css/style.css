@@ -148,7 +148,8 @@ body {
 .form-appointment__textarea{
 	padding: 17px 23px;
 	min-height: 180px;
-	resize: vertical;
+	max-height: 322px;
+	resize: vertical;	
 }
 .form-appointment__footer{
 	align-self: flex-end;

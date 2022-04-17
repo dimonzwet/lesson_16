@@ -123,6 +123,15 @@ body {
 	color: #fff;
 	line-height: 1.5;
 	letter-spacing: 0.15px;
+	transition: all 0.3s ease 0s;
+}
+.form-appointment__line input:hover{
+	background-color: #4f539b;
+	outline: 2px solid #6a6d74;
+}
+.form-appointment__line textarea:hover{
+	background-color: #4f539b;
+	outline: 2px solid #6a6d74;
 }
 .form-appointment__name {
 }
@@ -189,7 +198,7 @@ body {
 	margin: 0px auto;
 }
 .summary__form {
-	background: #F5F7FF;
+	background-color: #F5F7FF;
 	max-width: 446px;
 	min-width: 320px;
 	padding: 18px 32px;
@@ -221,7 +230,19 @@ body {
 }
 .summary__item {
 	margin: 0px 0px 5px 0px;
+}	
+.summary__item input{
+	transition: all 0.3s ease 0s;
 }
+.summary__item input:hover{
+background-color: #e5e7f0;
+}
+.summary__item select{
+	transition: all 0.3s ease 0s;
+}
+.summary__item select:hover{
+	background-color: #e5e7f0;
+	}
 .summary__label{
 	font-size: 13px;
 	line-height: 2.1;
@@ -290,6 +311,10 @@ body {
 	border: 1px solid #A2A6B0;
 	border-radius: 4px;
 	margin: 0px 0px 19px 0px;
+	transition: all 0.3s ease 0s;
+}
+.discount-summary__input:hover{
+	background-color: #e5e7f0;
 }
 .discount-summary__button {
 	cursor: pointer;
@@ -347,6 +372,12 @@ body {
 }
 .form-customers >*:last-child{
 	margin-bottom: 0;
+}
+.form-customers input{
+	transition: all 0.3s ease 0s;
+}
+.form-customers input:hover{
+background-color: #eaecf0;
 }
 .form-customers__title {
 	margin: 0px 0px 11px 0px;
